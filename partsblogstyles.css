@@ -164,6 +164,9 @@ p > img{
     margin-bottom: 3vh;
 }
 
+#knob{
+    width: 200px;
+}
 
 #vin1{
     width: 400px;
