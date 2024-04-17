@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toyota </title>
+    <link rel="stylesheet" href="brandsblog.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="blog.html"><img src="Logo_2.png" alt=""></a></div>
+    </header>
+
+    <main>
+
+            <div class="sign">
+                <img src="images toyota.png" alt="">
+            </div>
+
+            <div class="topnews">
+                <div class="top">
+                    <a href="#" id="articleLink">
+                        <img src=""  id="articleImage" alt="article">
+                        <p id="articleText">jrjrnfujfhfuifuiuijifjifef</p>
+                    </a>
+                </div>
+                <div class="bottom">
+                    <div class="bottom1">
+                        <a href="">
+                            <img src="b-yfguyff.jpg" alt="">
+                            <p>rfjbndfjnnjgjhjkrjkvjkv</p>
+                        </a>
+                    </div>
+                    <div class="bottom1">
+                        <a href="">
+                            <img src="b-hvvgvn.jpg" alt="">
+                            <p>vjnjvjvjvhbjjjuvjcccjnjfjf</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news">
+                <div class="news1">
+                    <a href="">
+                        <img src="poster4.jpg" alt="">
+                        <p>ujghjgnfiogubrtjhgptngutgjgntg</p>
+                    </a>
+                </div>
+                <div class="news1">
+                    <a href="">
+                        <img src="poster8.jpg" alt="">
+                        <p>piobpiobjgiopbjubkbjbjbmbjbo</p>
+                    </a>
+                </div>
+                <div class="news1">
+                    <a href="">
+                        <img src="poster8.jpg" alt="">
+                        <p>piobpiobjgiopbjubkbjbjbmbjbo</p>
+                    </a>
+                </div>
+                <div class="news1">
+                    <a href="">
+                        <img src="poster8.jpg" alt="">
+                        <p>piobpiobjgiopbjubkbjbjbmbjbo</p>
+                    </a>
+                </div>
+                <div class="news1">
+                    <a href="">
+                        <img src="poster8.jpg" alt="">
+                        <p>piobpiobjgiopbjubkbjbjbmbjbo</p>
+                    </a>
+                </div>
+                <div class="news1">
+                    <a href="">
+                        <img src="poster8.jpg" alt="">
+                        <p>piobpiobjgiopbjubkbjbjbmbjbo</p>
+                    </a>
+                </div>
+                <div class="news1">
+                    <a href="">
+                        <img src="poster8.jpg" alt="">
+                        <p>piobpiobjgiopbjubkbjbjbmbjbo</p>
+                    </a>
+                </div>
+                
+            </div>
+    </main>
+
+    <footer>
+        <p>Socials</p>
+        <div>
+            <a href="https://web.facebook.com/profile.php?id=61557842125157" target="_blank"><i class="fa-brands fa-facebook"></i><span class="xeros">@E-autopartstore</span></a>
+            <a href="https://twitter.com/Eautopartstore" target="_blank"><i class="fa-brands fa-square-x-twitter"></i><span class="xeros">@e-autopartstore</span></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i><span class="xeros">@e-autopartstore</span></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i><span class="xeros">@e-autopartstore</span></a>
+            <a href=""><i class="fa-brands fa-square-whatsapp"></i><span class="xeros">E-AUTOPARTSTORE</span></a>
+            <a href=""><i class="fa-brands fa-threads"></i><span class="xeros">@e-autopartstore</span></a>
+            <a href=""><i class="fa-brands fa-tiktok"></i><span class="xeros">@e_autopartstore</span></a>
+        </div>
+        
+        <p>Official</p>
+        <div>
+            <a href=""><i class="fa-regular fa-envelope"></i><span class="xeros">eautopartstore@gmail.com</span></a>
+            <a href=""><i class="fa-solid fa-phone"></i></a>
+        </div>
+        <p id="down">Visit <a href="eas.homepage.html">e-autopartstore</a> today!</p>
+        <div class="footer">
+            <p>
+                © 2024 e-autopartstore. All rights reserved
+            </p>
+        </div>
+    </footer>   
+    
+    
+
+
+    
+    <script>
+        // Toggle news display 
+        const articles = [
+            {
+                imageUrl: "b-ferfwer.jpg",
+                text: "Check out the new Toyota jump function.",
+                href: "article1.html"
+            },
+            {
+                imageUrl: "b-hvvgvn.jpg",
+                text: "Who's your travel buddy. Plan your next trip.",
+                href: "article2.html"
+            },
+            // Add more articles as needed
+        ];
+    
+        // Function to update the content of HTML elements
+        function updateArticle(index) {
+            const article = articles[index];
+            document.getElementById("articleImage").src = article.imageUrl;
+            document.getElementById("articleText").textContent = article.text;
+            document.getElementById("articleLink").href = article.href;
+        }
+    
+        let currentIndex = 0;
+        const intervalTime = 5000; // Change content every 5 seconds (5000 milliseconds)
+    
+        // Initial update
+        updateArticle(currentIndex);
+    
+        // Periodically update the content
+        setInterval(function() {
+            currentIndex = (currentIndex + 1) % articles.length;
+            updateArticle(currentIndex);
+        }, intervalTime);
+
+    </script>
+    
+
+</body>
+</html>
