@@ -168,6 +168,10 @@ p > img{
     width: 200px;
 }
 
+#clusters{
+    width: 200px;
+}
+
 #vin1{
     width: 400px;
     border-radius: 10px;
