@@ -168,7 +168,8 @@ p > img{
     width: 200px;
 }
 
-#clusters{
+#clusters,
+#knob, #clutch{
     width: 200px;
 }
 
