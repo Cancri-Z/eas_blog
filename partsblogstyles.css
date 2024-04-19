@@ -153,7 +153,7 @@ i{
 }
 
 p > img{
-    width: 200px;
+    width: 300px;
     border-radius: 10px;
     margin: 10px 0 5vh 0;
 }
@@ -164,6 +164,11 @@ p > img{
     margin-bottom: 3vh;
 }
 
+#sensor{
+    width: 200px;
+}
+
+#clusters,
 #knob, #clutch{
     width: 200px;
 }
